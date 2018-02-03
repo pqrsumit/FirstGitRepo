@@ -38,6 +38,7 @@
 /*======================================================
 * Build this module and execute using below given command*
 * spark-submit --master yarn --class HiveConnect ./TestModule.jar/
+*/
 
 import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.{SparkConf, SparkContext}
